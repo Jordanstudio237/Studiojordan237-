@@ -6,6 +6,10 @@
   <title>Studio Jordan 237</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
+  <!-- Bouton WhatsApp flottant -->
+<a href="https://wa.me/237677225889" target="_blank" class="whatsapp-float">
+  💬
+</a>
 <body>
   <header>
     <h1>Studio Jordan 237</h1>
@@ -57,3 +61,22 @@
   </footer>
 </body>
 </html>
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  font-size: 30px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  text-decoration: none;
+  z-index: 1000;
+  transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
